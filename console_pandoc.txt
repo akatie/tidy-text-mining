@@ -1,0 +1,78 @@
+kb@Silver-Laptop  ~/Documents/tidy-text-mining (master)
+$ "C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS 02-sentiment-analysis.u
+tf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_
+backslash+smart --output 02-sentiment-analysis.html --email-obfuscation none --self-con
+tained --standalone --section-divs --template "C:\Users\akb\Documents\R\win-library\3.6
+\rmarkdown\rmd\h\default.html" --no-highlight --variable highlightjs=1 --variable "them
+e:bootstrap" --include-in-header "C:\Users\akb\AppData\Local\Temp\Rtmpc9Kkkh\rmarkdown-
+str5ac86afb318f.html" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/lat
+est/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --metadata pagetitle=02-sentiment-analysis
+.utf8.md
+pandoc.exe: C:\Users\akb\AppData\Local\Temp\Rtmpc9Kkkh\rmarkdown-str5ac86afb318f.html: o
+penBinaryFile: does not exist (No such file or directory)
+
+akb@Silver-Laptop  ~/Documents/tidy-text-mining (master)
+$ "C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS 02-sentiment-analysis.u
+tf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_
+backslash+smart --output 02-sentiment-analysis.html --email-obfuscation none --self-con
+tained --standalone --section-divs --template "C:\Users\akb\Documents\R\win-library\3.6
+\rmarkdown\rmd\h\default.html" --no-highlight --variable highlightjs=1 --variable "them
+e:bootstrap"  --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/Math
+Jax.js?config=TeX-AMS-MML_HTMLorMML" --metadata pagetitle=02-sentiment-analysis.utf8.md
+
+File 02-sentiment-analysis_files/figure-html/sentimentplot-1.png not found in resource p
+ath
+
+akb@Silver-Laptop  ~/Documents/tidy-text-mining (master)
+$ "C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS 02-sentiment-analysis.u
+tf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_
+backslash+smart --output 02-sentiment-analysis.html --email-obfuscation none --self-con
+tained --standalone --section-divs --template "C:\Users\akb\Documents\R\win-library\3.6
+\rmarkdown\rmd\h\default.html" --no-highlight --variable highlightjs=1 --variable "them
+e:bootstrap"  --metadata pagetitle=02-sentiment-analysis.utf8.md
+
+Access violation in generated code when executing data at 0x7a6dd52
+
+ Attempting to reconstruct a stack trace...
+
+   Frame        Code address
+ * 0x57adaf0    0x7a6dd52
+ * 0x57adaf8    0x7ff8880e00f0 C:\windows\System32\IMM32.DLL+0xf0
+ * 0x57adb00    0x57ade60
+ * 0x57adb70    0x7ff88884baa1 C:\windows\SYSTEM32\ntdll.dll+0x3baa1
+ * 0x57adb78    0x79a1ba9
+ * 0x57adb80    0x7946418
+ * 0x57adb88    0x79463fd
+ * 0x57adb90    0x79463d0
+ * 0x57adb98    0x2d
+ * 0x57adba0    0x79f0160
+ * 0x57adba8    0x79a1c09
+ * 0x57adbb0    0x7a4e391
+ * 0x57adbb8    0x7a4e3a8
+ * 0x57adbc0    0x7a4e3c2
+ * 0x57adbc8    0x7a4e3d8
+ * 0x57adbd0    0x791d000
+ * 0x57adbd8    0x791cfb9
+ * 0x57adbe0    0x49f0aba C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x45f0aba
+ * 0x57adbe8    0x49f0aba C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x45f0aba
+ * 0x57adbf0    0x423fba8 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x3e3fba8
+ * 0x57adbf8    0x49f0aba C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x45f0aba
+ * 0x57adc00    0x791d140
+ * 0x57adc08    0x79184d8
+ * 0x57adc10    0x7ad6388
+ * 0x57adc18    0x79fd490
+ * 0x57adc20    0x79fd4a8
+ * 0x57adc28    0x79fd4c0
+ * 0x57adc30    0x4b616f1 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x47616f1
+ * 0x57adc38    0x4231e2a C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x3e31e2a
+ * 0x57adc40    0x4b616f1 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x47616f1
+ * 0x57adc48    0x4a6d3e9 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x466d3e9
+ * 0x57adc50    0x4b616f1 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x47616f1
+ * 0x57adc58    0x4b616f1 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x47616f1
+ * 0x57adc60    0x41a98d3 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x3da98d3
+ * 0x57adc68    0x4280a19 C:\Program Files\RStudio\bin\pandoc\pandoc.exe+0x3e80a19
+
+   ... (maximum recursion depth reached.)
+
+
+akb@Silver-Laptop  ~/Documents/tidy-text-mining (master)

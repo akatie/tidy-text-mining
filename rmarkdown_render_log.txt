@@ -1,0 +1,575 @@
+Show in New WindowClear OutputExpand/Collapse Output
+
+Show in New WindowClear OutputExpand/Collapse Output
+word
+<chr>
+sentiment
+<chr>
+2-faces	negative
+abnormal	negative
+abolish	negative
+abominable	negative
+abominably	negative
+abominate	negative
+abomination	negative
+abort	negative
+aborted	negative
+aborts	negative
+...
+1-10 of 6,786 rows
+Show in New WindowClear OutputExpand/Collapse Output
+don't know how to handle 'block' engine output
+Show in New WindowClear OutputExpand/Collapse Output
+Joining, by = "word"
+R Console
+word
+<chr>
+n
+<int>
+good	359
+young	192
+friend	166
+hope	143
+happy	125
+love	117
+deal	92
+found	92
+present	89
+kind	82
+...
+1-10 of 303 rows
+tbl_df
+303 x 2
+word
+<chr>
+n
+<int>
+good	359
+young	192
+friend	166
+hope	143
+happy	125
+love	117
+deal	92
+found	92
+present	89
+kind	82
+...
+1-10 of 303 rows
+Show in New WindowClear OutputExpand/Collapse Output
+don't know how to handle 'block' engine output
+Show in New WindowClear OutputExpand/Collapse Output
+Joining, by = "word"
+Show in New WindowClear OutputExpand/Collapse Output
+
+Show in New WindowClear OutputExpand/Collapse Output
+book
+<fctr>
+linenumber
+<int>
+chapter
+<int>
+word
+<chr>
+Pride & Prejudice	1	0	pride
+Pride & Prejudice	1	0	and
+Pride & Prejudice	1	0	prejudice
+Pride & Prejudice	3	0	by
+Pride & Prejudice	3	0	jane
+Pride & Prejudice	3	0	austen
+Pride & Prejudice	7	1	chapter
+Pride & Prejudice	7	1	1
+Pride & Prejudice	10	1	it
+Pride & Prejudice	10	1	is
+...
+1-10 of 122,204 rows
+Show in New WindowClear OutputExpand/Collapse Output
+don't know how to handle 'block' engine output
+Show in New WindowClear OutputExpand/Collapse Output
+Joining, by = "word"
+Joining, by = "word"
+Show in New WindowClear OutputExpand/Collapse Output
+
+Show in New WindowClear OutputExpand/Collapse Output
+sentiment
+<chr>
+n
+<int>
+negative	3324
+positive	2312
+2 rows
+tbl_df
+2 x 2
+sentiment
+<chr>
+n
+<int>
+negative	4781
+positive	2005
+2 rows
+tbl_df
+2 x 2
+sentiment
+<chr>
+n
+<int>
+negative	4781
+positive	2005
+2 rows
+Show in New WindowClear OutputExpand/Collapse Output
+Joining, by = "word"
+R Console
+word
+<chr>
+sentiment
+<chr>
+n
+<int>
+miss	negative	1855
+well	positive	1523
+good	positive	1380
+great	positive	981
+like	positive	725
+better	positive	639
+enough	positive	613
+happy	positive	534
+love	positive	495
+pleasure	positive	462
+...
+1-10 of 2,585 rows
+tbl_df
+2585 x 3
+word
+<chr>
+sentiment
+<chr>
+n
+<int>
+miss	negative	1855
+well	positive	1523
+good	positive	1380
+great	positive	981
+like	positive	725
+better	positive	639
+enough	positive	613
+happy	positive	534
+love	positive	495
+pleasure	positive	462
+...
+1-10 of 2,585 rows
+Show in New WindowClear OutputExpand/Collapse Output
+Selecting by n
+R Console
+
+
+Show in New WindowClear OutputExpand/Collapse Output
+word
+<chr>
+lexicon
+<chr>
+miss	custom
+a	SMART
+a's	SMART
+able	SMART
+about	SMART
+above	SMART
+according	SMART
+accordingly	SMART
+across	SMART
+actually	SMART
+...
+1-10 of 1,150 rows
+Show in New WindowClear OutputExpand/Collapse Output
+Loading required package: RColorBrewer
+Joining, by = "word"
+R Console
+
+
+Show in New WindowClear OutputExpand/Collapse Output
+
+Attaching package: �reshape2�
+
+The following object is masked from �package:tidyr�:
+
+    smiths
+
+Joining, by = "word"
+R Console
+
+
+Show in New WindowClear OutputExpand/Collapse Output
+[1] "however little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters."
+Show in New WindowClear OutputExpand/Collapse Output
+book
+<fctr>
+chapters
+<int>
+Sense & Sensibility	51
+Pride & Prejudice	62
+Mansfield Park	49
+Emma	56
+Northanger Abbey	32
+Persuasion	25
+6 rows
+Show in New WindowClear OutputExpand/Collapse Output
+Joining, by = "word"
+Selecting by ratio
+R Console
+book
+<fctr>
+chapter
+<int>
+negativewords
+<int>
+words
+<int>
+Sense & Sensibility	43	161	3405
+Pride & Prejudice	34	111	2104
+Mansfield Park	46	173	3685
+Emma	15	151	3340
+Northanger Abbey	21	149	2982
+Persuasion	4	62	1807
+6 rows | 1-4 of 5 columns
+tbl_df
+6 x 5
+book
+<fctr>
+chapter
+<int>
+negativewords
+<int>
+words
+<int>
+Sense & Sensibility	43	161	3405
+Pride & Prejudice	34	111	2104
+Mansfield Park	46	173	3685
+Emma	15	151	3340
+Northanger Abbey	21	149	2982
+Persuasion	4	62	1807
+6 rows | 1-4 of 5 columns
+
+R version 3.6.1 (2019-07-05) -- "Action of the Toes"
+Copyright (C) 2019 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+
+R version 3.6.1 (2019-07-05) -- "Action of the Toes"
+Copyright (C) 2019 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Error: The specified directory 'C:/Users/akb/Documents/tidy-text-mining' does not exist.
+Error: The specified directory 'C:/Users/akb/Documents/tidy-text-mining' does not exist.
+> unlink('02-sentiment-analysis_cache', recursive = TRUE)
+> knitr::render_html("02-sentiment-analysis.Rmd")
+Error in knitr::render_html("02-sentiment-analysis.Rmd") :
+  unused argument ("02-sentiment-analysis.Rmd")
+> knitr::render_html("02-sentiment-analysis.Rmd")
+Error in knitr::render_html("02-sentiment-analysis.Rmd") :
+  unused argument ("02-sentiment-analysis.Rmd")
+> require(knitr)
+Loading required package: knitr
+> knitr::render_html("02-sentiment-analysis.Rmd")
+Error in knitr::render_html("02-sentiment-analysis.Rmd") :
+  unused argument ("02-sentiment-analysis.Rmd")
+> knitr::render_html
+function ()
+{
+    set_html_dev()
+    opts_knit$set(out.format = "html")
+    html.hook = function(name) {
+        force(name)
+        function(x, options) {
+            x = if (name == "source") {
+                c(hilight_source(x, "html", options), "")
+            }
+            else escape_html(x)
+            x = one_string(x)
+            sprintf("<div class=\"%s\"><pre class=\"knitr %s\">%s</pre></div>\n",
+                name, tolower(options$engine), x)
+        }
+    }
+    h = opts_knit$get("header")
+    if (!nzchar(h["highlight"]))
+        set_header(highlight = .header.hi.html)
+    z = list()
+    for (i in c("source", "warning", "message",
+        "error")) z[[i]] = html.hook(i)
+    knit_hooks$set(z)
+    knit_hooks$set(inline = function(x) {
+        sprintf(if (inherits(x, "AsIs"))
+            "%s"
+        else "<code class=\"knitr inline\">%s</code>",
+            .inline.hook(format_sci(x, "html")))
+    }, output = html.hook("output"), plot = hook_plot_html,
+        chunk = .chunk.hook.html)
+}
+<bytecode: 0x000001dd5b766d38>
+<environment: namespace:knitr>
+> knitr::render_html()
+> knitr::render("02-sentiment-analysis.Rmd")
+Error: 'render' is not an exported object from 'namespace:knitr'
+> rmarkdown::render("02-sentiment-analysis.Rmd")
+
+
+processing file: 02-sentiment-analysis.Rmd
+  |.                                                                |   2%
+  ordinary text without R code
+
+  |...                                                              |   4%
+label: unnamed-chunk-1 (with options)
+List of 1
+ $ echo: logi FALSE
+
+  |....                                                             |   6%
+  ordinary text without R code
+
+  |.....                                                            |   8%
+label: tidyflow-ch2 (with options)
+List of 3
+ $ echo     : logi FALSE
+ $ out.width: chr "100%"
+ $ fig.cap  : chr "A flowchart of a typical text analysis that uses tidytext for sentiment analysis. This chapter shows how to imp"| __truncated__
+
+  |.......                                                          |  10%
+  ordinary text without R code
+
+  |........                                                         |  12%
+label: unnamed-chunk-2
+  |.........                                                        |  14%
+  ordinary text without R code
+
+  |...........                                                      |  16%
+label: unnamed-chunk-3
+  |............                                                     |  18%
+  ordinary text without R code
+
+  |.............                                                    |  20%
+label: unnamed-chunk-4 (with options)
+List of 2
+ $ type  : chr "rmdnote"
+ $ engine: chr "block"
+
+  |...............                                                  |  22%
+  ordinary text without R code
+
+  |................                                                 |  24%
+label: tidy_books
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+  |.................                                                |  27%
+  ordinary text without R code
+
+  |...................                                              |  29%
+label: nrcjoy (with options)
+List of 1
+ $ dependson: chr "tidy_books"
+
+Joining, by = "word"
+  |....................                                             |  31%
+  ordinary text without R code
+
+  |.....................                                            |  33%
+label: unnamed-chunk-5 (with options)
+List of 2
+ $ type  : chr "rmdtip"
+ $ engine: chr "block"
+
+  |.......................                                          |  35%
+  ordinary text without R code
+
+  |........................                                         |  37%
+label: janeaustensentiment (with options)
+List of 1
+ $ dependson: chr "tidy_books"
+
+Joining, by = "word"
+  |.........................                                        |  39%
+  ordinary text without R code
+
+  |...........................                                      |  41%
+label: sentimentplot (with options)
+List of 4
+ $ dependson : chr "janeaustensentiment"
+ $ fig.width : num 9
+ $ fig.height: num 10
+ $ fig.cap   : chr "Sentiment through the narratives of Jane Austen's novels"
+
+  |............................                                     |  43%
+  ordinary text without R code
+
+  |.............................                                    |  45%
+label: pride_prejudice (with options)
+List of 1
+ $ dependson: chr "tidy_books"
+
+  |...............................                                  |  47%
+  ordinary text without R code
+
+  |................................                                 |  49%
+label: unnamed-chunk-6 (with options)
+List of 2
+ $ type  : chr "rmdnote"
+ $ engine: chr "block"
+
+  |.................................                                |  51%
+  ordinary text without R code
+
+  |..................................                               |  53%
+label: comparesentiment (with options)
+List of 1
+ $ dependson: chr "pride_prejudice"
+
+Joining, by = "word"
+Joining, by = "word"
+  |....................................                             |  55%
+  ordinary text without R code
+
+  |.....................................                            |  57%
+label: compareplot (with options)
+List of 4
+ $ dependson : chr "comparesentiment"
+ $ fig.width : num 9
+ $ fig.height: num 7.5
+ $ fig.cap   : chr "(ref:comparecap)"
+
+  |......................................                           |  59%
+  ordinary text without R code
+
+  |........................................                         |  61%
+label: unnamed-chunk-7
+  |.........................................                        |  63%
+  ordinary text without R code
+
+  |..........................................                       |  65%
+label: wordcounts (with options)
+List of 1
+ $ dependson: chr "tidy_books"
+
+Joining, by = "word"
+  |............................................                     |  67%
+  ordinary text without R code
+
+  |.............................................                    |  69%
+label: pipetoplot (with options)
+List of 4
+ $ dependson : chr "wordcounts"
+ $ fig.width : num 8
+ $ fig.height: num 4
+ $ fig.cap   : chr "Words that contribute to positive and negative sentiment in Jane Austen's novels"
+
+Selecting by n
+  |..............................................                   |  71%
+  ordinary text without R code
+
+  |................................................                 |  73%
+label: unnamed-chunk-8
+  |.................................................                |  76%
+  ordinary text without R code
+
+  |..................................................               |  78%
+label: firstwordcloud (with options)
+List of 4
+ $ dependson : chr "tidy_books"
+ $ fig.height: num 6
+ $ fig.width : num 6
+ $ fig.cap   : chr "The most common words in Jane Austen's novels"
+
+Loading required package: RColorBrewer
+Joining, by = "word"
+  |....................................................             |  80%
+  ordinary text without R code
+
+  |.....................................................            |  82%
+label: wordcloud (with options)
+List of 4
+ $ dependson : chr "tidy_books"
+ $ fig.height: num 5
+ $ fig.width : num 5
+ $ fig.cap   : chr "Most common positive and negative words in Jane Austen's novels"
+
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+Joining, by = "word"
+  |......................................................           |  84%
+  ordinary text without R code
+
+  |........................................................         |  86%
+label: PandP
+  |.........................................................        |  88%
+  ordinary text without R code
+
+  |..........................................................       |  90%
+label: PandPsentences (with options)
+List of 1
+ $ dependson: chr "PandP"
+
+  |............................................................     |  92%
+  ordinary text without R code
+
+  |.............................................................    |  94%
+label: austen_chapters (with options)
+List of 1
+ $ dependson: chr "tidy_books"
+
+  |..............................................................   |  96%
+  ordinary text without R code
+
+  |................................................................ |  98%
+label: chapters (with options)
+List of 1
+ $ dependson: chr "tidy_books"
+
+Joining, by = "word"
+Selecting by ratio
+  |.................................................................| 100%
+  ordinary text without R code
+
+
+output file: 02-sentiment-analysis.knit.md
+
+"C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS 02-sentiment-analysis.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash+smart --output 02-sentiment-analysis.html --email-obfuscation none --wrap preserve --standalone --section-divs --table-of-contents --toc-depth 3 --template "C:\Users\akb\Documents\R\win-library\3.6\bookdown\templates\gitbook.html" --highlight-style pygments --number-sections --css style.css --include-in-header "C:\Users\akb\AppData\Local\Temp\RtmpSUwAtd\rmarkdown-str4fa84e2d2073.html" --mathjax --metadata pagetitle=02-sentiment-analysis.utf8.md --include-in-header "_includes\analytics.html"
+
+Output created: sentiment.html
+Warning messages:
+1: The label(s) financial not found
+2: The label(s) usenet not found
+3: The label(s) tidyausten not found
+>
